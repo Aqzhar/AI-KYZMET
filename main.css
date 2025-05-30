@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+body {
+    background: linear-gradient(135deg, #68a2ff 0%, #c2e9fb 50%, #06c6ac 100%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #1a2a44;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-buttons button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    margin-top: 4vh;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.hero button {
+    background: #1a2a44;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.small-text {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.cv-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.cv-section h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cv-columns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+
+.cv-column {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.cv-column h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #1a2a44;
+}
+
+.cv-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-column li {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.smiley {
+    background: url('path-to-smiley-icon.png'); /* Replace with actual icon path */
+}
+
+.checklist {
+    background: url('path-to-checklist-icon.png'); /* Replace with actual icon path */
+}
+
+.puzzle {
+    background: url('path-to-puzzle-icon.png'); /* Replace with actual icon path */
+}
+
+.integrations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.integration-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+}
+
+.stripe { background: url('path-to-stripe-icon.png'); } /* Replace with actual icon path */
+.shopify { background: url('path-to-shopify-icon.png'); }
+.zapier { background: url('path-to-zapier-icon.png'); }
+.google-sheets { background: url('path-to-google-sheets-icon.png'); }
+.hubspot { background: url('path-to-hubspot-icon.png'); }
+.calendly { background: url('path-to-calendly-icon.png'); }
+
+.integration-text {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cv-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cv-column {
+        text-align: center;
+    }
+}
+
